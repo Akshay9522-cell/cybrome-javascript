@@ -1,8 +1,9 @@
 let box=document.querySelector('.myinput')
 const btn=document.querySelector('.btns')
-// let btn1=document.querySelector('.btn1')
-// let btn2=document.querySelector('.btn2')
 
+
+
+// JS FOR CLEAR BUTTON
 let clear=document.querySelector('.clr')
 
 clear.addEventListener('click',()=>{
@@ -11,6 +12,7 @@ clear.addEventListener('click',()=>{
 
 
 
+// JS FOR EQUAL TO BUTTON 
 let equal=document.querySelector('.btnequal')
  
   equal.addEventListener('click',()=>{
@@ -22,7 +24,7 @@ let equal=document.querySelector('.btnequal')
 
 
 
-
+// JS FOR ALL BUTTONS BY EVENT DELEGATION
 btn.addEventListener('click',(e)=>{
       
    
@@ -35,6 +37,9 @@ btn.addEventListener('click',(e)=>{
  
 })
 
+
+
+// JS FOR BACKSPACE BUTTON
 let back=document.querySelector('.bck')
 
 back.addEventListener('click',()=>{
